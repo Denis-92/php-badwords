@@ -30,13 +30,15 @@ $cleanText = str_replace ( $wordToHide , "***" , $textToScan );
 
 $textLength = strlen ( $textToScan );
 
+$testArray = explode( "," , "Lorem, ipsum, dorol, sit amte. ba bla bla , ciao" );
+
 ?>
 
 Il paragrafo a disposizione è:
 
 <br><br>
 
-<?php echo $textToScan ?>
+<?php echo $textToScan; ?>
 
 <hr>
 <br>
@@ -45,7 +47,7 @@ La lunghezza del paragrafo è:
 
 <br><br>
 
-<?php echo $textLength ?>
+<?php echo $textLength; ?>
 
 <hr>
 <br>
@@ -54,7 +56,7 @@ La parola da censurare è:
 
 <br><br>
 
-<?php echo $wordToHide ?>
+<?php echo $wordToHide; ?>
 
 <hr>
 <br>
@@ -63,7 +65,7 @@ Il testo pulito è:
 
 <br><br>
 
-<?php echo $cleanText ?>
+<?php echo $cleanText; ?>
 
 <hr>
 <br>
@@ -72,4 +74,11 @@ La lunghezza del paragrafo pulito è:
 
 <br><br>
 
-<?php echo strlen ( $cleanText ) ?>
+<?php echo strlen ( $cleanText ); ?>
+
+<hr><hr>
+
+<p>Test array</p>
+<pre>
+<?php var_dump( $testArray ); ?>
+</pre>

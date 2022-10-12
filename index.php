@@ -26,7 +26,7 @@ $textToScan = "
     totam, ut aspernatur odit reprehenderit! Repudiandae?
 ";
 
-$cleanTextArray = explode ( $wordToHide , $textToScan );
+$cleanText = str_replace ( $wordToHide , "***" , $textToScan );
 
 ?>
 
@@ -38,4 +38,9 @@ $cleanTextArray = explode ( $wordToHide , $textToScan );
 
 <p>
     <?php echo $textToScan ?>
+</p>
+
+<p>
+    Il testo pulito:.....
+    <?php echo $cleanText ?>
 </p>

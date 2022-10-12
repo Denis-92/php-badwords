@@ -11,15 +11,13 @@ Stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre 
 $wordToCover= $_GET["censoredWord"];
 
 $textToScan="
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+    Earum maiores quasi maxime tempora, iusto eos, vitae soluta saepe commodi atque excepturi?
+    Dignissimos odit ipsum ad placeat nostrum cupiditate qui minus!
 
-Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-Earum maiores quasi maxime tempora, iusto eos, vitae soluta saepe commodi atque excepturi?
-Dignissimos odit ipsum ad placeat nostrum cupiditate qui minus!
-
-Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-Ex esse sed quis ad quo, qui atque voluptates quidem a minima dignissimos iusto placeat illo,
-totam, ut aspernatur odit reprehenderit! Repudiandae?
-
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+    Ex esse sed quis ad quo, qui atque voluptates quidem a minima dignissimos iusto placeat illo,
+    totam, ut aspernatur odit reprehenderit! Repudiandae?
 ";
 
 ?>

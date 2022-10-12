@@ -20,7 +20,7 @@ $textToScan = "
     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
     Earum maiores quasi maxime tempora, iusto eos, vitae soluta saepe commodi atque excepturi?
     Dignissimos odit ipsum ad placeat nostrum cupiditate qui minus!
-
+    <br>
     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
     Ex esse sed quis ad quo, qui atque voluptates quidem a minima dignissimos iusto placeat illo,
     totam, ut aspernatur odit reprehenderit! Repudiandae?
@@ -53,6 +53,9 @@ La lunghezza del paragrafo è:
 <br>
 
 La parola da censurare è:
+<form name="form" action="" method="get">
+    <input type="text" name="word" id="word">
+</form>
 
 <br><br>
 

@@ -8,7 +8,7 @@ Stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre 
 
 <?php
 
-$_GET["censoredWord"]
+$wordToCover= $_GET["censoredWord"];
 
 ?>
 
@@ -26,5 +26,5 @@ $_GET["censoredWord"]
 
 <p>
     La parola da censurare è:
-    <?php echo $_GET["censoredWord"] ?>
+    <?php echo $wordToCover ?>
 </p>

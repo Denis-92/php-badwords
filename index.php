@@ -32,35 +32,44 @@ $textLength = strlen ( $textToScan );
 
 ?>
 
-<p>
-    Il paragrafo a disposizione è:
-    <p>
-        <?php echo $textToScan ?>
-    </p>
-    
-</p>
+Il paragrafo a disposizione è:
+
+<br><br>
+
+<?php echo $textToScan ?>
 
 <hr>
+<br>
 
-<p>
-    La lunghezza del paragrafo è:
-    <p>
-        <?php echo $textLength ?>
-    </p>
-</p>
+La lunghezza del paragrafo è:
 
-<hr>
+<br><br>
 
-<p>
-    La parola da censurare è:
-    <?php echo $wordToHide ?>
-</p>
+<?php echo $textLength ?>
 
 <hr>
+<br>
 
-<p>
-    Il testo pulito è:
-    <p>
-        <?php echo $cleanText ?>
-    </p>
-</p>
+La parola da censurare è:
+
+<br><br>
+
+<?php echo $wordToHide ?>
+
+<hr>
+<br>
+
+Il testo pulito è:
+
+<br><br>
+
+<?php echo $cleanText ?>
+
+<hr>
+<br>
+
+La lunghezza del paragrafo pulito è:
+
+<br><br>
+
+<?php echo strlen ( $cleanText ) ?>

@@ -23,3 +23,8 @@ $_GET["censoredWord"]
     Ex esse sed quis ad quo, qui atque voluptates quidem a minima dignissimos iusto placeat illo,
     totam, ut aspernatur odit reprehenderit! Repudiandae?
 </p>
+
+<p>
+    La parola da censurare è:
+    <?php echo $_GET["censoredWord"] ?>
+</p>

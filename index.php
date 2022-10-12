@@ -28,19 +28,39 @@ $textToScan = "
 
 $cleanText = str_replace ( $wordToHide , "***" , $textToScan );
 
+$textLength = strlen ( $textToScan );
+
 ?>
 
+<p>
+    Il paragrafo a disposizione è:
+    <p>
+        <?php echo $textToScan ?>
+    </p>
+    
+</p>
+
+<hr>
+
+<p>
+    La lunghezza del paragrafo è:
+    <p>
+        <?php echo $textLength ?>
+    </p>
+</p>
+
+<hr>
 
 <p>
     La parola da censurare è:
     <?php echo $wordToHide ?>
 </p>
 
-<p>
-    <?php echo $textToScan ?>
-</p>
+<hr>
 
 <p>
-    Il testo pulito:.....
-    <?php echo $cleanText ?>
+    Il testo pulito è:
+    <p>
+        <?php echo $cleanText ?>
+    </p>
 </p>

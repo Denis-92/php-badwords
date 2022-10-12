@@ -55,11 +55,12 @@ La lunghezza del paragrafo è:
 La parola da censurare è:
 <form name="form" action="" method="get">
     <input type="text" name="word" id="word">
+    <button type="submit">Censura</button>
 </form>
 
-<br><br>
-
-<?php echo $wordToHide; ?>
+<h2>
+    <?php echo $wordToHide; ?>
+</h2>
 
 <hr>
 <br>
